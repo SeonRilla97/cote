@@ -23,7 +23,6 @@ public class _3_구간_합_구하기 {
             int i1 = Integer.parseInt(origin[i-1]);
             subSum[i] = subSum[i-1] + i1;
         }
-
         for (int i = 0; i < Integer.parseInt(NM[1]); i++) {
             String[] split = bf.readLine().split(" ");
             int i1 = Integer.parseInt(split[0]);
