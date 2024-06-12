@@ -173,8 +173,8 @@ sorted(array, key=lambda x: x[1], reverse=True) # Key 속성으로 정렬 기준
 
 #itertools
 
-순열 : 순서 O , n개에서 서로다른 r개 nPr
-조합 : 순서 x , n개에서 서로다른 r개  nCr
+# 순열 : 순서 O , n개에서 서로다른 r개 nPr
+# 조합 : 순서 x , n개에서 서로다른 r개  nCr
 
 from itertools import product, permutations, combinations
 
